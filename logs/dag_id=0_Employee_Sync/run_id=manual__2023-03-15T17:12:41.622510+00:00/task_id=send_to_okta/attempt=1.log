@@ -1,0 +1,23 @@
+[2023-03-15T17:12:43.812+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 0_Employee_Sync.send_to_okta manual__2023-03-15T17:12:41.622510+00:00 [queued]>
+[2023-03-15T17:12:43.818+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 0_Employee_Sync.send_to_okta manual__2023-03-15T17:12:41.622510+00:00 [queued]>
+[2023-03-15T17:12:43.819+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-15T17:12:43.819+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2023-03-15T17:12:43.820+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-15T17:12:43.827+0000] {taskinstance.py:1383} INFO - Executing <Task(_PythonDecoratedOperator): send_to_okta> on 2023-03-15 17:12:41.622510+00:00
+[2023-03-15T17:12:43.832+0000] {standard_task_runner.py:55} INFO - Started process 26693 to run task
+[2023-03-15T17:12:43.836+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', '0_Employee_Sync', 'send_to_okta', 'manual__2023-03-15T17:12:41.622510+00:00', '--job-id', '44', '--raw', '--subdir', 'DAGS_FOLDER/test_dag.py', '--cfg-path', '/tmp/tmp7msktbep']
+[2023-03-15T17:12:43.839+0000] {standard_task_runner.py:83} INFO - Job 44: Subtask send_to_okta
+[2023-03-15T17:12:43.888+0000] {task_command.py:376} INFO - Running <TaskInstance: 0_Employee_Sync.send_to_okta manual__2023-03-15T17:12:41.622510+00:00 [running]> on host 9fe6516b8a01
+[2023-03-15T17:12:43.930+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=0_Employee_Sync
+AIRFLOW_CTX_TASK_ID=send_to_okta
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-15T17:12:41.622510+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-03-15T17:12:41.622510+00:00
+[2023-03-15T17:12:43.947+0000] {python.py:177} INFO - Done. Returned value was: None
+[2023-03-15T17:12:43.956+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=0_Employee_Sync, task_id=send_to_okta, execution_date=20230315T171241, start_date=20230315T171243, end_date=20230315T171243
+[2023-03-15T17:12:44.012+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2023-03-15T17:12:44.028+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

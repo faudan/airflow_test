@@ -1,0 +1,23 @@
+[2023-03-13T19:08:01.494+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: cool_DAG.transform manual__2023-03-13T19:07:59.797380+00:00 [queued]>
+[2023-03-13T19:08:01.501+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: cool_DAG.transform manual__2023-03-13T19:07:59.797380+00:00 [queued]>
+[2023-03-13T19:08:01.502+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-13T19:08:01.502+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2023-03-13T19:08:01.503+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-13T19:08:01.511+0000] {taskinstance.py:1383} INFO - Executing <Task(_PythonDecoratedOperator): transform> on 2023-03-13 19:07:59.797380+00:00
+[2023-03-13T19:08:01.516+0000] {standard_task_runner.py:55} INFO - Started process 4146 to run task
+[2023-03-13T19:08:01.519+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'cool_DAG', 'transform', 'manual__2023-03-13T19:07:59.797380+00:00', '--job-id', '14', '--raw', '--subdir', 'DAGS_FOLDER/test_dag.py', '--cfg-path', '/tmp/tmprz8fesq3']
+[2023-03-13T19:08:01.521+0000] {standard_task_runner.py:83} INFO - Job 14: Subtask transform
+[2023-03-13T19:08:01.574+0000] {task_command.py:376} INFO - Running <TaskInstance: cool_DAG.transform manual__2023-03-13T19:07:59.797380+00:00 [running]> on host 9fe6516b8a01
+[2023-03-13T19:08:01.633+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=cool_DAG
+AIRFLOW_CTX_TASK_ID=transform
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-13T19:07:59.797380+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-03-13T19:07:59.797380+00:00
+[2023-03-13T19:08:01.635+0000] {python.py:177} INFO - Done. Returned value was: {'total_order_value': 1236.7}
+[2023-03-13T19:08:01.665+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=cool_DAG, task_id=transform, execution_date=20230313T190759, start_date=20230313T190801, end_date=20230313T190801
+[2023-03-13T19:08:01.693+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2023-03-13T19:08:01.715+0000] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

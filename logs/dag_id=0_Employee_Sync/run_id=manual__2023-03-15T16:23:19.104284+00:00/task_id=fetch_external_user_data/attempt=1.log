@@ -1,0 +1,38 @@
+[2023-03-15T16:23:20.240+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 0_Employee_Sync.fetch_external_user_data manual__2023-03-15T16:23:19.104284+00:00 [queued]>
+[2023-03-15T16:23:20.247+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 0_Employee_Sync.fetch_external_user_data manual__2023-03-15T16:23:19.104284+00:00 [queued]>
+[2023-03-15T16:23:20.248+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-15T16:23:20.249+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2023-03-15T16:23:20.249+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-15T16:23:20.257+0000] {taskinstance.py:1383} INFO - Executing <Task(_PythonDecoratedOperator): fetch_external_user_data> on 2023-03-15 16:23:19.104284+00:00
+[2023-03-15T16:23:20.263+0000] {standard_task_runner.py:55} INFO - Started process 24225 to run task
+[2023-03-15T16:23:20.267+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', '0_Employee_Sync', 'fetch_external_user_data', 'manual__2023-03-15T16:23:19.104284+00:00', '--job-id', '40', '--raw', '--subdir', 'DAGS_FOLDER/test_dag.py', '--cfg-path', '/tmp/tmpjg_bd7ij']
+[2023-03-15T16:23:20.270+0000] {standard_task_runner.py:83} INFO - Job 40: Subtask fetch_external_user_data
+[2023-03-15T16:23:20.321+0000] {task_command.py:376} INFO - Running <TaskInstance: 0_Employee_Sync.fetch_external_user_data manual__2023-03-15T16:23:19.104284+00:00 [running]> on host 9fe6516b8a01
+[2023-03-15T16:23:20.369+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=0_Employee_Sync
+AIRFLOW_CTX_TASK_ID=fetch_external_user_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-15T16:23:19.104284+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-03-15T16:23:19.104284+00:00
+[2023-03-15T16:23:20.378+0000] {taskinstance.py:1851} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/base.py", line 188, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 193, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/test_dag.py", line 76, in fetch_external_user_data
+    employees = external_to_lattice(validated_data)
+  File "/opt/airflow/dags/test_dag.py", line 42, in external_to_lattice
+    return [Employee(employee['UserId']) for employee in employees]
+  File "/opt/airflow/dags/test_dag.py", line 42, in <listcomp>
+    return [Employee(employee['UserId']) for employee in employees]
+TypeError: string indices must be integers
+[2023-03-15T16:23:20.386+0000] {taskinstance.py:1406} INFO - Marking task as FAILED. dag_id=0_Employee_Sync, task_id=fetch_external_user_data, execution_date=20230315T162319, start_date=20230315T162320, end_date=20230315T162320
+[2023-03-15T16:23:20.393+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 40 for task fetch_external_user_data (string indices must be integers; 24225)
+[2023-03-15T16:23:20.440+0000] {local_task_job.py:164} INFO - Task exited with return code 1
+[2023-03-15T16:23:20.460+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
