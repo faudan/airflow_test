@@ -1,0 +1,23 @@
+[2023-03-16T18:56:33.253+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 0_Employee_Sync_Granular_Steps.db_setup manual__2023-03-16T18:56:31.818644+00:00 [queued]>
+[2023-03-16T18:56:33.259+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 0_Employee_Sync_Granular_Steps.db_setup manual__2023-03-16T18:56:31.818644+00:00 [queued]>
+[2023-03-16T18:56:33.260+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-16T18:56:33.261+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2023-03-16T18:56:33.261+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-16T18:56:33.269+0000] {taskinstance.py:1383} INFO - Executing <Task(_PythonDecoratedOperator): db_setup> on 2023-03-16 18:56:31.818644+00:00
+[2023-03-16T18:56:33.274+0000] {standard_task_runner.py:55} INFO - Started process 45887 to run task
+[2023-03-16T18:56:33.279+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', '0_Employee_Sync_Granular_Steps', 'db_setup', 'manual__2023-03-16T18:56:31.818644+00:00', '--job-id', '75', '--raw', '--subdir', 'DAGS_FOLDER/test_dag_granular.py', '--cfg-path', '/tmp/tmpgofald1b']
+[2023-03-16T18:56:33.281+0000] {standard_task_runner.py:83} INFO - Job 75: Subtask db_setup
+[2023-03-16T18:56:33.330+0000] {task_command.py:376} INFO - Running <TaskInstance: 0_Employee_Sync_Granular_Steps.db_setup manual__2023-03-16T18:56:31.818644+00:00 [running]> on host 9fe6516b8a01
+[2023-03-16T18:56:33.375+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=0_Employee_Sync_Granular_Steps
+AIRFLOW_CTX_TASK_ID=db_setup
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-16T18:56:31.818644+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-03-16T18:56:31.818644+00:00
+[2023-03-16T18:56:33.377+0000] {python.py:177} INFO - Done. Returned value was: None
+[2023-03-16T18:56:33.386+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=0_Employee_Sync_Granular_Steps, task_id=db_setup, execution_date=20230316T185631, start_date=20230316T185633, end_date=20230316T185633
+[2023-03-16T18:56:33.411+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2023-03-16T18:56:33.432+0000] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

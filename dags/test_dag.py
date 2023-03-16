@@ -24,7 +24,7 @@ class OktaEmployee:
         self.employee = employee
 
     def export(self):
-        return {'userId': self.employee['userId'], 'email': self.employee['email'], 'service': 'okta'}    
+        return {'userId': self.employee['userId'], 'email': self.employee['email'], 'service': 'okta', 'dag': 'condensed'}    
 
 
 def fetch_external_users_data(path):

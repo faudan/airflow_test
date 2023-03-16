@@ -2,501 +2,601 @@
  {
   "userId":"88F7B33d2bcf9f5",
   "email":"elijah57@example.net",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"f90cD3E76f1A9b9",
   "email":"bethany14@example.com",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"DbeAb8CcdfeFC2c",
   "email":"bthompson@example.com",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"A31Bee3c201ef58",
   "email":"kaitlinkaiser@example.com",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"1bA7A3dc874da3c",
   "email":"buchananmanuel@example.net",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"bfDD7CDEF5D865B",
   "email":"tconner@example.org",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"bE9EEf34cB72AF7",
   "email":"conniecowan@example.com",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"2EFC6A4e77FaEaC",
   "email":"wyattbishop@example.com",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"baDcC4DeefD8dEB",
   "email":"nmccann@example.net",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"8e4FB470FE19bF0",
   "email":"virginiaterrell@example.org",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"BF0BbA03C29Bb3b",
   "email":"huangcathy@example.com",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"F738c69fB34E62E",
   "email":"rayleroy@example.org",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"C03fDADdAadAdCe",
   "email":"jefferynoble@example.org",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"b759b74BD1dE80d",
   "email":"mercedes44@example.com",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"1F0B7D65A00DAF9",
   "email":"pmiranda@example.org",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"50Bb061cB30B461",
   "email":"braunpriscilla@example.net",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"D6dbA5308fEC4BC",
   "email":"sheenabanks@example.com",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"311D775990f066d",
   "email":"gbrewer@example.org",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"7F7E1BAcb0C9AFf",
   "email":"gilbertdonaldson@example.com",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"88473e15D5c3cD0",
   "email":"jcortez@example.com",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"b31D271F8c200AB",
   "email":"carias@example.net",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"42F4BdA841aBadC",
   "email":"fknox@example.org",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"cBbBcA0FCA3C4Bc",
   "email":"huangbill@example.org",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"f1f89173353aD90",
   "email":"juarezdominique@example.net",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"c5B09fb33e8bA0A",
   "email":"cassandramorris@example.com",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"c9F2282C40BEC1E",
   "email":"sallymiller@example.net",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"9c1bc7EC53Fb7cE",
   "email":"bsullivan@example.net",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"ddEc50e2A2e3a2B",
   "email":"ayalajose@example.net",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"66F096D36Ebae11",
   "email":"irosales@example.net",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"F0fE2faAd78F8b5",
   "email":"mconrad@example.com",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"5d2feAfbdCAA6B5",
   "email":"jimblake@example.org",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"cDa5F303fCd6dEa",
   "email":"nsampson@example.net",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"8Ef7DBfcaB02b6B",
   "email":"caitlin24@example.net",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"6Dec5b5542F8ed8",
   "email":"mconley@example.net",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"3Fb8a7f68e12784",
   "email":"reynoldsdarryl@example.net",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"035eff50B9A0F24",
   "email":"jeannovak@example.org",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"aa614aAE4B7Cf0C",
   "email":"clinton78@example.org",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"ACcde95AAe3e6cC",
   "email":"luisdeleon@example.org",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"b6a35de5CB6fc25",
   "email":"rosariodave@example.org",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"e92A191E345fA3A",
   "email":"vickihouston@example.com",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"7D0AcBF6CCac3fd",
   "email":"evelyn31@example.org",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"CEFA7BBCef013AE",
   "email":"stephenfuller@example.org",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"9edBC94aE7cA22a",
   "email":"haleymathews@example.net",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"fFe7BAA737aDbe2",
   "email":"tyrone56@example.org",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"5F2f3fAca8B0946",
   "email":"lhernandez@example.com",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"6bFcfc3cc1BC6B4",
   "email":"molly03@example.org",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"f3BD2cBF7eEb6df",
   "email":"jvang@example.org",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"Ee4eB129dC7913A",
   "email":"erikmueller@example.org",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"dBCEf340C3657Eb",
   "email":"rivasdominique@example.org",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"E47FB71DD9ACCd9",
   "email":"daisymcgee@example.net",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"eA3fDd79BE9f0E7",
   "email":"staffordtravis@example.net",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"aF0eE4547Bc025c",
   "email":"saralong@example.net",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"9F5DeD7aD228F5a",
   "email":"iphelps@example.net",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"D3Fa0220dDE4d36",
   "email":"roberto29@example.com",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"60FdBFd5e7BE8fF",
   "email":"yolanda07@example.org",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"D8bF5Ab2b98caff",
   "email":"abbottyvette@example.net",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"CD8d33aA25bc8BB",
   "email":"ochang@example.org",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"Fac3BfFf0A3d03c",
   "email":"amyanderson@example.com",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"e552D7ddafe1FFb",
   "email":"qnorman@example.org",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"0f8deedb629A5f6",
   "email":"clarkeangela@example.net",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"bB9e49E506F65ed",
   "email":"kalvarado@example.org",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"Ed724605A403D91",
   "email":"jodyvincent@example.org",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"0aBE5ACb18E0c10",
   "email":"hutchinsonkirk@example.com",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"5D2cb63CaAF53f6",
   "email":"floreschristina@example.org",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"Ee6974f90eeCe18",
   "email":"nathan65@example.org",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"cEf02C076afa07f",
   "email":"maria32@example.org",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"9Df5Ba591bF3EFf",
   "email":"imccullough@example.com",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"3faB1CBfEFBDdD4",
   "email":"corey92@example.com",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"Ebcefdf75eCb0a9",
   "email":"daltoncalvin@example.net",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"e75e5DBfcb68887",
   "email":"ubanks@example.com",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"6a53a8D41dDF6de",
   "email":"lopezdebbie@example.org",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"F0d3bD1aaf9E3Bc",
   "email":"meagan39@example.net",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"5bC87340799FBD0",
   "email":"kristina76@example.com",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"dBfA17Aaf16b4ab",
   "email":"weissbridget@example.com",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"c935b7Eb6FA0B0F",
   "email":"wpetersen@example.org",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"b3e15e65Ca2CcBf",
   "email":"wongmary@example.org",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"dade3452F0c32FD",
   "email":"gailfrench@example.net",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"AdEd6cfD85DeC46",
   "email":"vpaul@example.com",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"DAf111987098ae4",
   "email":"xpoole@example.net",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"6e6a5b885F6496d",
   "email":"cassandra80@example.org",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"12DCb4ED8E01D5C",
   "email":"johnathan72@example.org",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"E1cB5cA8CA7CC0a",
   "email":"nhall@example.net",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"AedDfaE8Cf49F07",
   "email":"erikaball@example.net",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"bff9853aFAeF772",
   "email":"nixonvanessa@example.net",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"E883773cA5219Be",
   "email":"melvin08@example.net",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"CB19EafEbBfF9eC",
   "email":"oblake@example.com",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"5834700fbEd2771",
   "email":"johnnyhendricks@example.net",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"2b0Ab1Dc9E01D7E",
   "email":"pbarron@example.net",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"3f3a3D89ad042Dd",
   "email":"olsenmalik@example.net",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"9425E2F38C408ef",
   "email":"teresa37@example.com",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"F0aeC9c2759F3C6",
   "email":"zmiles@example.net",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"d6EA619A7C4aA95",
   "email":"sheenadouglas@example.com",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"2A33E7Cad1bb0F5",
   "email":"evan90@example.org",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"d181FFB7d3E68bb",
   "email":"nicolas90@example.org",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"feaBf8dAE0C0d6F",
   "email":"angelanavarro@example.net",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"5eFda7caAeB260E",
   "email":"bmartin@example.org",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"CCbFce93d3720bE",
   "email":"latasha46@example.net",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"2fEc528aFAF0b69",
   "email":"regina11@example.org",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"Adc7ad9B6e4A1Fe",
   "email":"alexiscantrell@example.org",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  },
  {
   "userId":"b8D0aD3490FC7e1",
   "email":"pcopeland@example.org",
-  "service":"okta"
+  "service":"okta",
+  "dag":"granular"
  }
 ]
