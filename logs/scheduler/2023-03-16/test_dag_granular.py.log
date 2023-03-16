@@ -2606,3 +2606,43 @@ SyntaxError: invalid syntax
 [2023-03-16T18:57:55.889+0000] {logging_mixin.py:120} INFO - [2023-03-16T18:57:55.889+0000] {dag.py:2585} INFO - Sync 1 DAGs
 [2023-03-16T18:57:55.907+0000] {logging_mixin.py:120} INFO - [2023-03-16T18:57:55.907+0000] {dag.py:3340} INFO - Setting next_dagrun for 0_Employee_Sync_Granular_Steps to None, run_after=None
 [2023-03-16T18:57:55.926+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/test_dag_granular.py took 0.322 seconds
+[2023-03-16T18:58:26.835+0000] {processor.py:154} INFO - Started process (PID=15821) to work on /opt/airflow/dags/test_dag_granular.py
+[2023-03-16T18:58:26.838+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/test_dag_granular.py for tasks to queue
+[2023-03-16T18:58:26.839+0000] {logging_mixin.py:120} INFO - [2023-03-16T18:58:26.839+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag_granular.py
+[2023-03-16T18:58:27.037+0000] {logging_mixin.py:120} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3437 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2023-03-16T18:58:27.049+0000] {processor.py:766} INFO - DAG(s) dict_keys(['0_Employee_Sync_Granular_Steps']) retrieved from /opt/airflow/dags/test_dag_granular.py
+[2023-03-16T18:58:27.074+0000] {logging_mixin.py:120} INFO - [2023-03-16T18:58:27.074+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-03-16T18:58:27.090+0000] {logging_mixin.py:120} INFO - [2023-03-16T18:58:27.090+0000] {dag.py:3340} INFO - Setting next_dagrun for 0_Employee_Sync_Granular_Steps to None, run_after=None
+[2023-03-16T18:58:27.101+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/test_dag_granular.py took 0.272 seconds
+[2023-03-16T18:58:57.492+0000] {processor.py:154} INFO - Started process (PID=15889) to work on /opt/airflow/dags/test_dag_granular.py
+[2023-03-16T18:58:57.494+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/test_dag_granular.py for tasks to queue
+[2023-03-16T18:58:57.495+0000] {logging_mixin.py:120} INFO - [2023-03-16T18:58:57.495+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag_granular.py
+[2023-03-16T18:58:57.785+0000] {logging_mixin.py:120} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3437 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2023-03-16T18:58:57.797+0000] {processor.py:766} INFO - DAG(s) dict_keys(['0_Employee_Sync_Granular_Steps']) retrieved from /opt/airflow/dags/test_dag_granular.py
+[2023-03-16T18:58:57.827+0000] {logging_mixin.py:120} INFO - [2023-03-16T18:58:57.827+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-03-16T18:58:57.842+0000] {logging_mixin.py:120} INFO - [2023-03-16T18:58:57.842+0000] {dag.py:3340} INFO - Setting next_dagrun for 0_Employee_Sync_Granular_Steps to None, run_after=None
+[2023-03-16T18:58:57.855+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/test_dag_granular.py took 0.366 seconds
+[2023-03-16T18:59:28.285+0000] {processor.py:154} INFO - Started process (PID=15956) to work on /opt/airflow/dags/test_dag_granular.py
+[2023-03-16T18:59:28.289+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/test_dag_granular.py for tasks to queue
+[2023-03-16T18:59:28.291+0000] {logging_mixin.py:120} INFO - [2023-03-16T18:59:28.291+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag_granular.py
+[2023-03-16T18:59:28.471+0000] {logging_mixin.py:120} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3437 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2023-03-16T18:59:28.483+0000] {processor.py:766} INFO - DAG(s) dict_keys(['0_Employee_Sync_Granular_Steps']) retrieved from /opt/airflow/dags/test_dag_granular.py
+[2023-03-16T18:59:28.511+0000] {logging_mixin.py:120} INFO - [2023-03-16T18:59:28.511+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-03-16T18:59:28.525+0000] {logging_mixin.py:120} INFO - [2023-03-16T18:59:28.525+0000] {dag.py:3340} INFO - Setting next_dagrun for 0_Employee_Sync_Granular_Steps to None, run_after=None
+[2023-03-16T18:59:28.536+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/test_dag_granular.py took 0.258 seconds
+[2023-03-16T18:59:59.056+0000] {processor.py:154} INFO - Started process (PID=16023) to work on /opt/airflow/dags/test_dag_granular.py
+[2023-03-16T18:59:59.059+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/test_dag_granular.py for tasks to queue
+[2023-03-16T18:59:59.060+0000] {logging_mixin.py:120} INFO - [2023-03-16T18:59:59.060+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag_granular.py
+[2023-03-16T18:59:59.210+0000] {logging_mixin.py:120} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3437 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2023-03-16T18:59:59.221+0000] {processor.py:766} INFO - DAG(s) dict_keys(['0_Employee_Sync_Granular_Steps']) retrieved from /opt/airflow/dags/test_dag_granular.py
+[2023-03-16T18:59:59.249+0000] {logging_mixin.py:120} INFO - [2023-03-16T18:59:59.249+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-03-16T18:59:59.264+0000] {logging_mixin.py:120} INFO - [2023-03-16T18:59:59.264+0000] {dag.py:3340} INFO - Setting next_dagrun for 0_Employee_Sync_Granular_Steps to None, run_after=None
+[2023-03-16T18:59:59.276+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/test_dag_granular.py took 0.225 seconds
+[2023-03-16T19:00:29.773+0000] {processor.py:154} INFO - Started process (PID=16091) to work on /opt/airflow/dags/test_dag_granular.py
+[2023-03-16T19:00:29.777+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/test_dag_granular.py for tasks to queue
+[2023-03-16T19:00:29.778+0000] {logging_mixin.py:120} INFO - [2023-03-16T19:00:29.778+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag_granular.py
+[2023-03-16T19:00:29.975+0000] {logging_mixin.py:120} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3437 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2023-03-16T19:00:29.987+0000] {processor.py:766} INFO - DAG(s) dict_keys(['0_Employee_Sync_Granular_Steps']) retrieved from /opt/airflow/dags/test_dag_granular.py
+[2023-03-16T19:00:30.012+0000] {logging_mixin.py:120} INFO - [2023-03-16T19:00:30.012+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-03-16T19:00:30.026+0000] {logging_mixin.py:120} INFO - [2023-03-16T19:00:30.026+0000] {dag.py:3340} INFO - Setting next_dagrun for 0_Employee_Sync_Granular_Steps to None, run_after=None
+[2023-03-16T19:00:30.037+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/test_dag_granular.py took 0.271 seconds
