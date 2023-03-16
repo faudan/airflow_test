@@ -1,0 +1,23 @@
+[2023-03-16T18:37:48.006+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 0_Employee_Sync.push_users_data_to_okta manual__2023-03-16T18:37:45.312517+00:00 [queued]>
+[2023-03-16T18:37:48.013+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 0_Employee_Sync.push_users_data_to_okta manual__2023-03-16T18:37:45.312517+00:00 [queued]>
+[2023-03-16T18:37:48.014+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-16T18:37:48.014+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2023-03-16T18:37:48.015+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-16T18:37:48.022+0000] {taskinstance.py:1383} INFO - Executing <Task(_PythonDecoratedOperator): push_users_data_to_okta> on 2023-03-16 18:37:45.312517+00:00
+[2023-03-16T18:37:48.027+0000] {standard_task_runner.py:55} INFO - Started process 44930 to run task
+[2023-03-16T18:37:48.030+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', '0_Employee_Sync', 'push_users_data_to_okta', 'manual__2023-03-16T18:37:45.312517+00:00', '--job-id', '67', '--raw', '--subdir', 'DAGS_FOLDER/test_dag.py', '--cfg-path', '/tmp/tmp7qon5fg3']
+[2023-03-16T18:37:48.033+0000] {standard_task_runner.py:83} INFO - Job 67: Subtask push_users_data_to_okta
+[2023-03-16T18:37:48.082+0000] {task_command.py:376} INFO - Running <TaskInstance: 0_Employee_Sync.push_users_data_to_okta manual__2023-03-16T18:37:45.312517+00:00 [running]> on host 9fe6516b8a01
+[2023-03-16T18:37:48.127+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=0_Employee_Sync
+AIRFLOW_CTX_TASK_ID=push_users_data_to_okta
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-16T18:37:45.312517+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-03-16T18:37:45.312517+00:00
+[2023-03-16T18:37:48.135+0000] {python.py:177} INFO - Done. Returned value was: None
+[2023-03-16T18:37:48.144+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=0_Employee_Sync, task_id=push_users_data_to_okta, execution_date=20230316T183745, start_date=20230316T183748, end_date=20230316T183748
+[2023-03-16T18:37:48.162+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2023-03-16T18:37:48.176+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

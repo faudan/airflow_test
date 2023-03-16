@@ -1,0 +1,42 @@
+[2023-03-16T18:17:21.486+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 0_Employee_Sync.update_external_users_data manual__2023-03-16T18:17:19.976583+00:00 [queued]>
+[2023-03-16T18:17:21.493+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 0_Employee_Sync.update_external_users_data manual__2023-03-16T18:17:19.976583+00:00 [queued]>
+[2023-03-16T18:17:21.493+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-16T18:17:21.494+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2023-03-16T18:17:21.494+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-16T18:17:21.502+0000] {taskinstance.py:1383} INFO - Executing <Task(_PythonDecoratedOperator): update_external_users_data> on 2023-03-16 18:17:19.976583+00:00
+[2023-03-16T18:17:21.508+0000] {standard_task_runner.py:55} INFO - Started process 43866 to run task
+[2023-03-16T18:17:21.512+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', '0_Employee_Sync', 'update_external_users_data', 'manual__2023-03-16T18:17:19.976583+00:00', '--job-id', '52', '--raw', '--subdir', 'DAGS_FOLDER/test_dag.py', '--cfg-path', '/tmp/tmpxqeib5k3']
+[2023-03-16T18:17:21.514+0000] {standard_task_runner.py:83} INFO - Job 52: Subtask update_external_users_data
+[2023-03-16T18:17:21.572+0000] {task_command.py:376} INFO - Running <TaskInstance: 0_Employee_Sync.update_external_users_data manual__2023-03-16T18:17:19.976583+00:00 [running]> on host 9fe6516b8a01
+[2023-03-16T18:17:21.630+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=0_Employee_Sync
+AIRFLOW_CTX_TASK_ID=update_external_users_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-16T18:17:19.976583+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-03-16T18:17:19.976583+00:00
+[2023-03-16T18:17:21.642+0000] {taskinstance.py:1851} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/base.py", line 188, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 193, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/test_dag.py", line 90, in update_external_users_data
+    save_user_data(users_data, db_connection)
+  File "/opt/airflow/dags/test_dag.py", line 47, in save_user_data
+    """+ values)
+psycopg2.errors.UndefinedTable: relation "employees" does not exist
+LINE 2:         INSERT INTO employees (id,first_name, last_name, ema...
+                            ^
+
+[2023-03-16T18:17:21.656+0000] {taskinstance.py:1406} INFO - Marking task as FAILED. dag_id=0_Employee_Sync, task_id=update_external_users_data, execution_date=20230316T181719, start_date=20230316T181721, end_date=20230316T181721
+[2023-03-16T18:17:21.664+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 52 for task update_external_users_data (relation "employees" does not exist
+LINE 2:         INSERT INTO employees (id,first_name, last_name, ema...
+                            ^
+; 43866)
+[2023-03-16T18:17:21.683+0000] {local_task_job.py:164} INFO - Task exited with return code 1
+[2023-03-16T18:17:21.705+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

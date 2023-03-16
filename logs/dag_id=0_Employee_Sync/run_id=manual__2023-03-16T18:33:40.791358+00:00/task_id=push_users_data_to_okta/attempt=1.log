@@ -1,0 +1,42 @@
+[2023-03-16T18:33:44.364+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 0_Employee_Sync.push_users_data_to_okta manual__2023-03-16T18:33:40.791358+00:00 [queued]>
+[2023-03-16T18:33:44.371+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 0_Employee_Sync.push_users_data_to_okta manual__2023-03-16T18:33:40.791358+00:00 [queued]>
+[2023-03-16T18:33:44.372+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-16T18:33:44.372+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2023-03-16T18:33:44.373+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-16T18:33:44.380+0000] {taskinstance.py:1383} INFO - Executing <Task(_PythonDecoratedOperator): push_users_data_to_okta> on 2023-03-16 18:33:40.791358+00:00
+[2023-03-16T18:33:44.386+0000] {standard_task_runner.py:55} INFO - Started process 44716 to run task
+[2023-03-16T18:33:44.389+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', '0_Employee_Sync', 'push_users_data_to_okta', 'manual__2023-03-16T18:33:40.791358+00:00', '--job-id', '62', '--raw', '--subdir', 'DAGS_FOLDER/test_dag.py', '--cfg-path', '/tmp/tmpuu7ij6im']
+[2023-03-16T18:33:44.391+0000] {standard_task_runner.py:83} INFO - Job 62: Subtask push_users_data_to_okta
+[2023-03-16T18:33:44.443+0000] {task_command.py:376} INFO - Running <TaskInstance: 0_Employee_Sync.push_users_data_to_okta manual__2023-03-16T18:33:40.791358+00:00 [running]> on host 9fe6516b8a01
+[2023-03-16T18:33:44.491+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=0_Employee_Sync
+AIRFLOW_CTX_TASK_ID=push_users_data_to_okta
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-16T18:33:40.791358+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-03-16T18:33:40.791358+00:00
+[2023-03-16T18:33:44.493+0000] {taskinstance.py:1851} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/base.py", line 188, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 193, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/test_dag.py", line 109, in push_users_data_to_okta
+    users_data = load_user_data(db_connection)
+  File "/opt/airflow/dags/test_dag.py", line 55, in load_user_data
+    cur.execute("SELECT id,first_name, last_name, email, phone FROM Employee")
+psycopg2.errors.UndefinedTable: relation "employee" does not exist
+LINE 1: SELECT id,first_name, last_name, email, phone FROM Employee
+                                                           ^
+
+[2023-03-16T18:33:44.502+0000] {taskinstance.py:1406} INFO - Marking task as FAILED. dag_id=0_Employee_Sync, task_id=push_users_data_to_okta, execution_date=20230316T183340, start_date=20230316T183344, end_date=20230316T183344
+[2023-03-16T18:33:44.509+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 62 for task push_users_data_to_okta (relation "employee" does not exist
+LINE 1: SELECT id,first_name, last_name, email, phone FROM Employee
+                                                           ^
+; 44716)
+[2023-03-16T18:33:44.563+0000] {local_task_job.py:164} INFO - Task exited with return code 1
+[2023-03-16T18:33:44.580+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
